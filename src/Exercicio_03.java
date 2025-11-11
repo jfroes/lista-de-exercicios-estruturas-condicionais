@@ -15,15 +15,13 @@ public class Exercicio_03 {
         System.out.print("Digite outro numero: ");
         int n3 = sc.nextInt();
 
-        if (n1 > n2 && n1 > n2){
+        if (n1 > n2 && n1 > n3){
             System.out.println(n1 + " é o maior");
         }else if (n2 > n1 && n2 > n3){
             System.out.println(n2 + " é o maior");
         }else{
             System.out.println(n3 + " é o maior");
         }
-
-
         sc.close();
     }
 
