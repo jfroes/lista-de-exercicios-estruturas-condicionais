@@ -24,6 +24,8 @@ public class Exercicio_07 {
         }else if (time.getHour() >= 12 && time.getHour() < 18){
             System.out.println("Boa tarde");
         }
+
+        sc.close();
     }
 }
 
